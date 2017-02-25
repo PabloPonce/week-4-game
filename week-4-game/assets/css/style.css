@@ -1,0 +1,87 @@
+body,html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../img/SW-background2.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+p {
+        font-size: 20px;
+        color: #D3D3D3;
+        }
+
+h1 {
+    font-size: 40px;
+    text-align: right;
+    color: white;
+    margin-right: 200px;
+
+}
+
+h3 {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+h2 {
+    
+    color: aliceblue;
+}
+
+img {
+    margin: auto;
+    max-width: 100%;
+    height: 100px;
+    background-color: #2A2A2A;
+    border: 5px solid #000000;
+    padding: 20px;
+    display: block;
+}
+
+.name,.health {
+    position: absolute;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    left: 12%;
+}
+
+.name {
+    top: 10px;
+}
+
+.health {
+    bottom: 10px;
+}
+
+#enemiesAvailable img{
+    background-color: #FF0000;
+    border: 4px solid black;
+}
+
+#defender img{
+    background-color: black;
+    border: 4px solid #121f1f;
+    color: #000000;
+}
+
+#defender p{
+    color: #000000;
+}
+
+#attact {background-color: #f44336;
+        font-size: 20px;
+        border-radius: 50%;
+}
+
+.character {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+}
+
